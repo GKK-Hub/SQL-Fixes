@@ -9,7 +9,7 @@ SELECT COUNT(* AS total_customers
 FROM customers;
 
 -- Q2: How many products we sell
-SELECT CONT(*) AS total_products
+SELECT COUNT(*) AS total_products
 FROM products;
 
 -- Q3: How many orders were delivered
