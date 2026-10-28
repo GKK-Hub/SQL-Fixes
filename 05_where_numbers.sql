@@ -7,12 +7,12 @@
 -- Q1: Products that cost more than 5,000
 SELECT product_name, unit_price
 FROM products
-WHERE unit_price > ;
+WHERE unit_price > 15;
 
 -- Q2: Products with fewer than 30 in stock
 SELECT product_name, stock_qty
 FROM products
-WHER stock_qty < 30;
+WHERE stock_qty < 30;
 
 -- Q3: Order lines with 3 or more units
 SELECT order_id, product_id, quantity
