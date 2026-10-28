@@ -10,7 +10,7 @@ FROM customers;
 
 -- Q2: Product catalogue with price
 SELECT product_name, category, unit_price
-FORM products;
+FROM products;
 
 -- Q3: Every distinct city we have customers in
 SELECT DISTINCT city
