@@ -10,8 +10,7 @@ FROM orders;
 
 -- Q2: Order status
 SELECT order_id, status
-FRM orders;
-
+FROM orders;
 -- Q3: Which customer placed each order
 SELECT order_id, customer_id
 FROM orders;
