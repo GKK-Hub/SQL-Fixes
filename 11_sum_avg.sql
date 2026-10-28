@@ -9,7 +9,7 @@ SELECT SUM(stock_qty) AS total_stock
 FROM products;
 
 -- Q2: Average product price
-SELECT AVG(unit_price AS avg_price
+SELECT AVG(unit_price) AS avg_price
 FROM products;
 
 -- Q3: Cheapest and most expensive product price
