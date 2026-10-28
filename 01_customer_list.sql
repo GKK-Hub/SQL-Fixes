@@ -5,11 +5,11 @@
 -- ============================================================
 
 -- Q1: Every customer's first and last name
-SELCT first_name, last_name
+SELECT first_name, last_name
 FROM customers;
 
 -- Q2: Customer emails
-SELECT first_name, emial
+SELECT first_name, email
 FROM customers;
 
 -- Q3: When each customer signed up
