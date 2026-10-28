@@ -6,11 +6,11 @@
 
 -- Q1: Product names and prices
 SELECT product_name, unit_price
-FROM product;
+FROM products;
 
 -- Q2: Product categories
 SELECT product_name, category
-FROM products
+FROM products;
 
 -- Q3: How much stock we have
 SELECT product_name, stock_qty
