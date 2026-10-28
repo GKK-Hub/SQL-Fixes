@@ -7,14 +7,14 @@
 -- Q1: All customers and their order count (including customers with no orders)
 SELECT c.customer_id, c.first_name, COUNT(o.order_id) AS order_count
 FROM customers c
-LEFT JION orders o ON c.customer_id = o.customer_id
+LEFT JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.first_name;
 
 -- Q2: Customers who have never placed an order
 SELECT c.customer_id, c.first_name, c.last_name
 FROM customers c
 LEFT JOIN orders o ON c.customer_id = o.customer_id
-WHERE o.order_id IS NULL;
+WHERE order_id IS NULL;
 
 -- Q3: Products that have never been sold
 SELECT p.product_name
